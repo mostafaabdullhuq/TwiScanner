@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+    @apply bg-slate-100 drop-shadow-sm  rounded-lg overflow-hidden p-10 flex flex-col justify-center hover:bg-slate-200 transition-colors;
+}
+
+.card-title {
+    @apply text-xl font-semibold text-gray-500 uppercase tracking-widest;
+}
+
+.card-icon {
+    @apply text-3xl font-semibold text-slate-700 uppercase tracking-widest;
+}
+
+.card-info {
+    @apply text-slate-900   font-bold uppercase mt-5 ml-2;
+}
+
+.card-info-status {
+    @apply font-bold uppercase mt-5 ml-2;
+}
+
+.card-info-text {
+    @apply text-2xl;
+}
+
+.card-info-num {
+    @apply text-3xl;
+}
